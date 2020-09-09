@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+}
+body {
+  background: rgba(15, 15, 15, 0.4);
+  margin: 0;
+ }
+ .card {
+  position: relative;
+  height: 300px;
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%);
+  background-size: cover;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(23,23,23,1);
+  padding: 4px;
+  margin-top: 12px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 150px;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0;
+  align-items: center;
+}
+.container-1 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  align-items: center;
+}
+
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-weight: bolder;
+}
+
+p, a {
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+}
+
+a :hover {
+  color: black;
+}
+ul {
+  text-decoration: none;
+}
+
+.btn-blue {
+    background-color: rgba(42, 82, 162, 1);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    width: 100px;
+}
+
+.btn-blue:hover {
+  background-color: rgba(42, 82, 162, 0.9);
+}
+
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_1280.jpg");
+  background-size: cover;
+  color: white;
+
+  }
+
+.cont {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px;
+}
+
+.banner h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.banner p {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+
+#footer {
+  background: rgba(20, 20, 20, 0.3);
+  width: 100%;
+  margin: 0;
+  max-height: 10vh;
+  vertical-align: right;
+  align-items: center;
+}
+i {
+  font-size: 35px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container-b {
+    width: 100%;
+  }
+  .cont {
+    padding: 15%;
+    width: 100%;
+  }
+  .story {
+    padding: 15%;
+    width: 100%;
+
+  }
+  .ccc {
+    padding: 15%;
+    width: 100%;
+
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container-b {
+    width: 100%;
+
+  }
+  .cont {
+    padding: 15%;
+    width: 100%;
+
+  }
+  .story {
+    padding: 15%;
+    width: 100%;
+
+  }
+  .ccc {
+    padding: 15%;
+    width: 100%;
+
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container-b {
+    width: 100%;
+  }
+  .cont {
+    padding: 15%;
+    width: 100%;
+  }
+  .story {
+    padding: 15%;
+    width: 100%;
+
+  }
+  .card {
+  position: relative;
+  height: 250px;
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("http://unsplash.it/400/300/?random");
+  background-size: cover;
+  color: white;
+  border-radius: 4px;
+}
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+  .ccc {
+    padding: 15%;
+    width: 100%;
+
+  }
+}
+@media (max-width: 280px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container-b {
+    width: 100%;
+
+  }
+  .cont {
+    padding: 15%;
+    width: 100%;
+  }
+  .story {
+    padding: 15%;
+    width: 100%;
+
+  }
+  .ccc {
+    padding: 15%;
+    width: 100%;
+
+  }
+}
